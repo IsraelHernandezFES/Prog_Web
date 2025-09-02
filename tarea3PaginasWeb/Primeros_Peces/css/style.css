@@ -1,0 +1,33 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align:justify;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: #00A5FF
+}
+
+button {
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #00A5FF;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute; /* Permite posicionar el elemento con coordenadas */
+    top: 20px;         /* Distancia desde el borde superior */
+    left: 20px;        /* Distancia desde el borde izquierdo */
+    width: 50px;       /* Ajusta el tamaño del logo */
+    height: auto;      /* Mantiene la proporción */
+}
